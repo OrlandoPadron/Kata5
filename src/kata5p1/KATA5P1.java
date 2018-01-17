@@ -36,6 +36,9 @@ public class KATA5P1 {
             
         }
         
+        statement.execute("CREATE TABLE 'MAIL' ('Id' INTEGER PRIMARY KEY AUTOINCREMENT,"
+                + "'Mail' INTEGER NOT NULL);");
+        
         
     }
     
